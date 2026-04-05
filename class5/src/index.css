@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.934);
+    color: rgba(255, 255, 255, 0.944);
+    padding: 5vw;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: lightseagreen;
+    margin-top: 10px;
+    font-weight: 600;
+    border: none;
+}
+
+button:active{
+    scale: 0.95;
+}
+
+.parent{
+    font-size: 1.9vw;
+}
+
+.parent button{
+    font-size: 1.8vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.wash{
+    width: fit-content;
+    padding: 10vw 8vw;
+    font-size: 3vw;
+    font-weight: 600;
+    /* background: conic-gradient(violet,indigo,blue,green,yellow,orange,red,violet); */
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.Male {
+    background-color: rgb(19, 133, 199);
+}
+
+.Female{
+    background-color: rgb(180, 40, 90);
+}
+
+.Other{
+    background: conic-gradient(violet,indigo,blue,green,yellow,orange,red,violet);
+}
