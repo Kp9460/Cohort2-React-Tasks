@@ -32,9 +32,9 @@ const App = () => {
       </form>
 
       {allUsers.map((elem,idx)=> {
-        return <div key={idx}>
-          <h4>{elem.name}</h4>
-          <p>{elem.email}</p>
+        return <div className='details' key={idx}>
+          <h4>Name : {elem.name}</h4>
+          <p>Email : {elem.email}</p>
         </div>
       })}
     </div>

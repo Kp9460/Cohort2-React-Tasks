@@ -2,18 +2,42 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
 }
 html, body{
   height: 100%;
   width: 100%;
 }
 
+body{
+  background-color: #111;
+  padding: 1vw;
+}
+
 form{
   padding: 2vw;
   display: flex;
   gap: 2vw;
+  background-color: #555;
+  margin-bottom: 2vw;
+  border-radius: 1vw;
 }
 
 input,button{
   padding: 1vw;
+  color: black;
+  border: none;
+  border-radius: 0.5vw;
+}
+
+button{
+  background-color: rgb(247, 99, 0);
+}
+
+.details{
+  background-color: rgba(212, 113, 32, 0.452);
+  padding: 1vw;
+  margin-bottom: 1vw;
+  border-radius: 1vw;
 }
