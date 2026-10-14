@@ -28,7 +28,7 @@ const App = () => {
   ]
 
   return (
-    <div className="min-h-screen bg-whitesmoke flex flex-wrap gap-10 p-5 justify-center">
+      <div className="min-h bg-whitesmoke flex flex-wrap gap-10 p-5 justify-center">
         {users.map(function(elem){
           return <Card key={elem.id} userData={elem} />
         })}

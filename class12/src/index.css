@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vw 5vw;
+    background: rgb(177, 121, 101);
+}
+.navbar h1{
+    background: rgb(177, 121, 101);
+}
+.nav{
+    display: flex;
+    gap: 3vw;
+    background: rgb(177, 121, 101);
+}
+.nav a{
+    font-size: 1.5vw;
+    text-decoration: none;
+    background: rgb(177, 121, 101);
+}
+
+.home{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+}
+.home>h1{
+    font-size: 4rem;
+}
+
+.About{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+}
+.About>h1{
+    font-size: 4rem;
+}
+
+.Courses{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+}
+.Courses>h1{
+    font-size: 4rem;
+}
+
+.link{
+    display: flex;
+    justify-content: space-around;
+    gap: 4vw;
+    font-size: 2rem;
+    margin-top: 2vw;
+}
+
+.Kodr{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+}
+.Kodr>h1{
+    font-size: 4rem;
+}
+
+.Kodex{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+}
+.Kodex>h1{
+    font-size: 4rem;
+}
+
+.footer{
+    width: 100%;
+    background-color: rgb(90, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+    position: absolute;
+    bottom: 0;
+}
+.footer>h1{
+    background-color: rgb(90, 49, 49);
+}
+.footer button{
+    padding: 1vw 1.5vw;
+    border-radius: 0.8vw;
+    background-color: rgb(1, 83, 1);
+    font-size: 1.4vw;
+    border: none;
+}
+button:active{
+    scale: 0.95;
+}
